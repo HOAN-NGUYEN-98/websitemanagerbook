@@ -112,33 +112,37 @@ setInterval(function() {
 let firstImg = document.getElementById('Pic-1');
 
 firstImg.addEventListener('mouseover', function() {
-    firstImg.src = "Picture/products-8-600x600.jpg";
+    firstImg.src = "Picture/day-nau-an-1.jpg";
 });
 
 firstImg.addEventListener('mouseout', function() {
-    firstImg.src = "Picture/products-7-600x600.jpg";
+    firstImg.src = "Picture/day-nau-an.jpg";
 });
 // -----------------------------------------------
 
 let firstImg_1 = document.getElementById('Pic-2');
 
 firstImg_1.addEventListener('mouseover', function() {
-    firstImg_1.src = "Picture/img-16-600x600.jpg";
+    firstImg_1.src = "Picture/sach-ki-nang-mem.jpg";
 });
 
 firstImg_1.addEventListener('mouseout', function() {
-    firstImg_1.src = "Picture/img-15-9-600x600.jpg";
+    firstImg_1.src = "Picture/ki-nang-giao-tiep.jpg";
 });
 // -----------------------------------------------
 
 let firstImg_2 = document.getElementById('Pic-3');
 
 firstImg_2.addEventListener('mouseover', function() {
-    firstImg_2.src = "Picture/products-2-600x600.jpg";
+    firstImg_2.src = "Picture/lap-trinh-java.jpg";
 });
 
 firstImg_2.addEventListener('mouseout', function() {
-    firstImg_2.src = "Picture/products-1-600x600.jpg";
+    firstImg_2.src = "Picture/sach-lap-trinh.jpg";
 });
 // -----------------------------------------------
 
+
+get('url') // api for get request
+    .then(response => response.json())
+    .then(data => console.log(data));
