@@ -1,8 +1,8 @@
 // chuyển slide trong html
 var img = [
-    "Picture/slider-4.jpg",
-    "Picture/slider-5.jpg",
-    "Picture/slider-6.jpg",
+    "Picture/slide_book1.jpg",
+    "Picture/slide_book2.jpg",
+    "Picture/slide_book3.jpg",
 ];
 
 // them su kien vao nut chuyển slide 
