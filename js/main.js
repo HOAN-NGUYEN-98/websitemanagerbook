@@ -1,3 +1,6 @@
+
+
+
 // chuyển slide trong html
 var img = [
     "Picture/slide_book1.jpg",
